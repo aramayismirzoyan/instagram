@@ -4,7 +4,7 @@ require __DIR__.'/vendor/autoload.php';
 \InstagramAPI\Instagram::$allowDangerousWebUsageAtMyOwnRisk = true;
 $ig = new \InstagramAPI\Instagram(); // Create new object Instagram API
 
-$username = "maramayis1";
+$username = "";
 $password = "";
 
 $ig->login($username, $password); // Login in Instagram
